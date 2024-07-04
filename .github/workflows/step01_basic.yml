@@ -3,9 +3,9 @@ on: workflow_dispatch
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps: 
-      - name: Checkout
+    steps:
+    - name: Checkout
       uses: actions/checkout@v2
-      - name: Build Project
+    - name: Build Project
       run: |
         echo "Build Project"
