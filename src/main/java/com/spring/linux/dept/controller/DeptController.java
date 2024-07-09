@@ -21,7 +21,7 @@ public class DeptController {
 		return "home";
 	}
 	
-	@GetMapping("/api/depts")
+	@GetMapping("/api/dept")
 	public List<Dept> getAllDepts() {
 		return deptService.getAllDepts();
 	}
